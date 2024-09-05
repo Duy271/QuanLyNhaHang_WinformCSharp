@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_InKiemMon" targetNamespace="http://tempuri.org/DS_InKiemMon.xsd" xmlns:mstns="http://tempuri.org/DS_InKiemMon.xsd" xmlns="http://tempuri.org/DS_InKiemMon.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_InKiemMon" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_InKiemMon" msprop:Generator_UserDSName="DS_InKiemMon">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dt_KiemMon" msprop:Generator_TableClassName="dt_KiemMonDataTable" msprop:Generator_TableVarName="tabledt_KiemMon" msprop:Generator_TablePropName="dt_KiemMon" msprop:Generator_RowDeletingName="dt_KiemMonRowDeleting" msprop:Generator_RowChangingName="dt_KiemMonRowChanging" msprop:Generator_RowEvHandlerName="dt_KiemMonRowChangeEventHandler" msprop:Generator_RowDeletedName="dt_KiemMonRowDeleted" msprop:Generator_UserTableName="dt_KiemMon" msprop:Generator_RowChangedName="dt_KiemMonRowChanged" msprop:Generator_RowEvArgName="dt_KiemMonRowChangeEvent" msprop:Generator_RowClassName="dt_KiemMonRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaMon" msprop:Generator_ColumnVarNameInTable="columnMaMon" msprop:Generator_ColumnPropNameInRow="MaMon" msprop:Generator_ColumnPropNameInTable="MaMonColumn" msprop:Generator_UserColumnName="MaMon" type="xs:string" minOccurs="0" />
+              <xs:element name="TenMon" msprop:Generator_ColumnVarNameInTable="columnTenMon" msprop:Generator_ColumnPropNameInRow="TenMon" msprop:Generator_ColumnPropNameInTable="TenMonColumn" msprop:Generator_UserColumnName="TenMon" type="xs:string" minOccurs="0" />
+              <xs:element name="SoLuong" msprop:Generator_ColumnVarNameInTable="columnSoLuong" msprop:Generator_ColumnPropNameInRow="SoLuong" msprop:Generator_ColumnPropNameInTable="SoLuongColumn" msprop:Generator_UserColumnName="SoLuong" type="xs:int" minOccurs="0" />
+              <xs:element name="GiaBan" msprop:Generator_ColumnVarNameInTable="columnGiaBan" msprop:Generator_ColumnPropNameInRow="GiaBan" msprop:Generator_ColumnPropNameInTable="GiaBanColumn" msprop:Generator_UserColumnName="GiaBan" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

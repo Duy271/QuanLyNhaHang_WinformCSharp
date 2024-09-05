@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="QuanLyNhaHang_Nhom8.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConStr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=DESKTOP-C8GK90P\\SQLEXPRESS;Initial Catalog=QuanLyNhaHang;Integrated Security=TrueData Source=DESKTOP-C8GK90P\\SQLEXPRESS;Initial Catalog=QuanLyNhaHang;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="taikhoan" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="matkhau" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="taikhoanchung" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="taikhoannhanvien" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
